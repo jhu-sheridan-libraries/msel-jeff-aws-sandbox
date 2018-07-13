@@ -10,8 +10,9 @@ Right now this achieves the following:
 ## Instructions
 1. Download terraform (https://www.terraform.io)
 2. Clone this repo `git clone https://github.com/jhu-sheridan-libraries/msel-jeff-aws-sandbox.git)`
-3. Install awscli `pip install -r requirements.txt`
-4. Configure aws cli with your AWS IAM credentials
-5. **Important** Create a profile called "jhuadmin" in awscli using your credentials
-6. Run terraform plan `terraform plan -out jeff.plan`, this will analyze the environment and figure out what needs to be created
-7. Run terraform apply `terraform apply jeff.plan`, this will create the resources 
+3. `cd msel-jeff-aws-sandbox`
+4. Install awscli `pip install -r requirements.txt`
+5. Configure aws cli with your AWS IAM credentials
+6. **Important** Create a profile called "jhuadmin" in awscli using your credentials
+7. Run terraform plan `terraform plan -out jeff.plan`, this will analyze the environment and figure out what needs to be created
+8. Run terraform apply `terraform apply jeff.plan`, this will create the resources 
