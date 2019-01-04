@@ -2,3 +2,5 @@
 *.plan
 *.tfstate
 *.tfstate.backup
+venv/
+.python-version
